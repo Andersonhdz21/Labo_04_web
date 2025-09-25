@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Recordatorio semanal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Recordatorio semanal</h1>
+
+    <label>
+      Día:
+      <select id="dia">
+        <option>Lunes</option>
+        <option>Martes</option>
+        <option>Miércoles</option>
+        <option>Jueves</option>
+        <option>Viernes</option>
+        <option>Sábado</option>
+        <option>Domingo</option>
+      </select>
+    </label>
+
+    <label>
+      Mensaje (opcional):
+      <input id="mensaje" placeholder="Ej: ¡No lo olvides!">
+    </label>
+
+    <button id="btn">Generar recordatorio</button>
+
+    <p id="salida" class="salida"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
